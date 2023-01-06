@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta name="color-scheme" content="dark light"> -->
+        <title>Library Database</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+      </head>
+      <body>
+        <div id="random">
+        <table id="table-c">
+          <thead id="table-head">
+            <tr>
+              <th>Id</th>
+              <th>Book</th>
+              <th>Author</th>
+            </tr>
+          </thead>
+          <tbody name="tbody" id="tbody" class="tbody">
+          </tbody>
+        </table>
+        <div id="form-div">
+        <form id="add-form">
+          <label>
+            ID:
+            <input align="right"type="number" id="ID">
+          </label>
+          <br>
+          <label>
+            Book:
+            <input type="text" id="Book">
+          </label>
+          <br>
+          <label>
+            Author:
+            <input type="text" id="Author">
+          </label>
+          <br>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+    <a href="/logout">Logout</a>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+      </body>
+
+</html>

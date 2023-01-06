@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family:'Open Sans', sans-serif;;
+    background: linear-gradient(270deg,lightblue,lightyellow);
+}
+#table-c{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 15px;
+    border-collapse:collapse;
+    width: auto;
+    margin: auto;
+}
+#table-c td, #table-c thead, #table-c th{
+    border: 1px solid rgb(141, 141, 141);
+    padding: 8px;
+}
+
+#table-c th{
+    background-color: rgb(16, 137, 16);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: justify;
+}
+
+#table-c tr{
+    padding-top: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+#table-c tr:hover{
+    background-color: lightgrey;
+}
+td{
+    margin-top: 20px;
+}
+#form-div{
+    flex: .5;
+}
+#add-form{
+    width: 50%;
+    margin: auto;
+}
+label {
+    display: flex;
+    flex-direction:column;
+}
+#random{
+    display: flex;
+    flex-direction: row-reverse;
+}
